@@ -1110,32 +1110,32 @@ export default function App() {
                   </svg>
                 </div>
 
-              <p className="pt-4">
-                中国有多少村庄，就有多少“酒香也怕巷子深”的故事：优质的农产品卖不出去，独特的山水无人知晓，传统手艺随老人离世而失传。
-              </p>
-              <p>
-                传统媒体时代，绝大多数村庄终其一生都不会有一次省级报道的机会。
-                而在新媒体时代，短视频的出现，第一次给了每一个村庄零成本走向全国的可能——一部手机、一个账号，一个偏远山村的书记就能直接面对千万用户。
-              </p>
-              <p>
-                但更深层的变化在于村干部的角色边界正在松动。
-                过去，村干部只需要管好村里的事、服务好村里的人；
-                现在，他们发现自己可以不只是“村干部”，还可以是家乡的代言人、农产品的推荐官、政策的转译员……身份在扩展，责任在叠加。
-              </p>
-              <p>
-                当镜头举起来时，他们首先要面对的，是来自四面八方的目光和追问——
-                <span className="italic block text-[#9B7253]/70 text-center py-4 font-semibold">
-                  “书记整天拍视频，还有时间干正事吗？”<br/>
-                  “直播赚的钱进了谁的口袋？”
-                </span>
-                这些问题，几乎每一个走进镜头的书记都遇到过。
-                他们需要用时间和结果来回应，而这条“回应”的路，比想象中要复杂得多。
-              </p>
+                <p className="pt-4">
+                  中国有多少村庄，就有多少“酒香也怕巷子深”的故事：优质的农产品卖不出去，独特的山水无人知晓，传统手艺随老人离世而失传。
+                </p>
+                <p>
+                  传统媒体时代，绝大多数村庄终其一生都不会有一次省级报道的机会。
+                  而在新媒体时代，短视频的出现，第一次给了每一个村庄零成本走向全国的可能——一部手机、一个账号，一个偏远山村的书记就能直接面对千万用户。
+                </p>
+                <p>
+                  但更深层的变化在于村干部的角色边界正在松动。
+                  过去，村干部只需要管好村里的事、服务好村里的人；
+                  现在，他们发现自己可以不只是“村干部”，还可以是家乡的代言人、农产品的推荐官、政策的转译员……身份在扩展，责任在叠加。
+                </p>
+                <p>
+                  当镜头举起来时，他们首先要面对的，是来自四面八方的目光和追问——
+                  <span className="italic block text-[#9B7253]/70 text-center py-4 font-semibold">
+                    “书记整天拍视频，还有时间干正事吗？”<br/>
+                    “直播赚的钱进了谁的口袋？”
+                  </span>
+                  这些问题，几乎每一个走进镜头的书记都遇到过。包腾被村民当面说是“不务正业”，张桂芳被质疑“太年轻能干什么”，彭卫的情景剧被说“村干部想当演员”。
+                </p>
+                <p>
+                  他们需要用时间和结果来回应，而这条“回应”的路，比想象中要复杂得多。
+                </p>
+              </div>
             </div>
-          </div>
-        </section>
-
-        {/* 四、流量的另一面 */}
+          </section>      {/* 四、流量的另一面 */}
         <section id="behind" className="py-16 md:py-24 border-b border-[#9B7253]/10">
           <div className="max-w-3xl mx-auto space-y-12">
             <div className="space-y-4">
@@ -1235,19 +1235,45 @@ export default function App() {
                   </button>
                 </div>
               </div>
+            </div>
 
-              {/* CHART 5: 性别人物矩阵图 */}
+            {/* Sub Section 2: 利 */}
+            <div className="space-y-6">
+              <h3 className="font-serif text-xl font-medium text-[#9B7253] border-b border-[#9B7253]/20 pb-2">
+                2. 利：收益和归属的模糊
+              </h3>
+              <div className="space-y-4 font-serif text-[15px] md:text-base leading-relaxed text-[#9B7253]/90">
+                <p className="italic font-medium text-[#9B7253]/80">
+                  直播间里，下单的按钮按下去只需要一秒。但订单背后的钱流向哪里，却没有人能在一秒内说清。
+                </p>
+                <p>
+                  账号是谁的，收益就跟着谁走。绝大多数账号以书记个人名义注册，流量、粉丝与商业价值全部依附于个人身份，既没有明确的集体权属界定，也没有公开统一的收益分配标准。
+                </p>
+                <p>
+                  对公众与村民而言，这是一场“信任的黑箱”：大家为助农下单、为情怀买单，但收益是归入村集体账户、分给农民合作社，还是抵扣运营成本、留给书记作为劳务补贴？大多没有规范台账，也缺乏监督机制。
+                </p>
+                <p>
+                  对书记自身而言，这份不透明容易滋生“助农谋私利”的质疑，让其面临无形的廉洁风险——哪怕全部收益都用于乡村发展，只要去向说不清楚，就难逃非议。
+                  受访者C坦言，大家愿意买单是相信钱会用在村民身上，可一旦去向模糊，再好的初心也会被消耗。
+                </p>
+                <p>
+                  对村庄长远发展而言，这意味着流量永远无法沉淀为稳定的集体资产。一旦书记任期结束或工作调动，账号往往停更，前期辛苦积累的粉丝、打通的销路直接变成“数字僵尸”。
+                  正如基层干部关祖苹的直白表态：“如果算集体账号，就没人愿意来干这个事情了。”算个人所有，集体留不住发展成果；算集体资产，又没人愿意白手起家投入。干事的动力与村庄的长远利益，就在权属与收益的模糊地带里反复拉扯。
+                </p>
+              </div>
+
+              {/* CHART 4: 商品橱窗开通情况环形图 */}
               <div className="pt-4 space-y-4">
                 <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9B7253]/15 pb-2 text-xs font-mono text-[#9B7253]/60 gap-2">
                   <span className="font-bold flex items-center gap-1.5">
-                    <Users className="w-3.5 h-3.5 text-[#DBAA06]" /> FIGURE 05 · 性别人物矩阵图
+                    <ShoppingBag className="w-3.5 h-3.5 text-[#DBAA06]" /> FIGURE 04 · 商品橱窗开通情况环形图
                   </span>
-                  <span>群体特征 · 人口结构</span>
+                  <span>商业变现 · 橱窗开通</span>
                 </div>
                 
                 <div className="w-full bg-[#9B7253]/[0.01] rounded-xl border border-[#9B7253]/15 overflow-hidden shadow-sm">
                   <div className="p-4 bg-[#9B7253]/[0.03] text-xs font-mono text-[#9B7253]/80 border-b border-[#9B7253]/10">
-                    💡 <strong>图表解读：</strong> 展示了村书记自媒体的主播性别分布及核心人物定位画像。
+                    💡 <strong>图表解读：</strong> 统计了网红村书记自媒体账号的商品橱窗开通及商业带货功能开启比例。大多数书记选择不开通橱窗，坚守纯公益形象；而开启橱窗的书记则通过法律手段将佣金归入村集体，实现“人走账号留，收益归集体”。
                   </div>
                   <div className="relative w-full h-[450px] sm:h-[500px] md:h-[550px] flex items-center justify-center bg-white">
                     <iframe 
@@ -1257,6 +1283,32 @@ export default function App() {
                     />
                   </div>
                 </div>
+              </div>
+            </div>
+
+            {/* Sub Section 3: 权 */}
+            <div className="space-y-6">
+              <h3 className="font-serif text-xl font-medium text-[#9B7253] border-b border-[#9B7253]/20 pb-2">
+                3. 权：村务与直播的拉锯
+              </h3>
+              <div className="space-y-4 font-serif text-[15px] md:text-base leading-relaxed text-[#9B7253]/90">
+                <p className="italic font-medium text-[#9B7253]/80">
+                  在村委会，他是书记。在直播间，他是什么？
+                </p>
+                <p>
+                  当一位干部同时面对“为人民服务”与“为流量服务”，他需要不断回答：今天的时间，分给走访群众还是拍摄剪辑？
+                  对于大部分尝试做自媒体的村书记来说，拍摄、剪辑、选品、复盘——每一项都需要额外的时间。而这些时间，原本属于走访入户、政策落实、纠纷调解。近乎翻倍的工作量，让他们陷入一种“永无止境的自我剥削”。
+                </p>
+                <p>
+                  直播场次不算KPI，但粉丝量 and 带货金额却成了上级眼中“看得见”的加分项。一个书记可以用三年时间默默修一条路，但这条路不会上热搜；而他拍一条“摔倒在田里”的视频，可能一夜涨粉十万。当看得见的数字凌驾于看不见的实绩，书记的时间分配，便不再完全由村务需求决定。
+                </p>
+                <p>
+                  部分地区在推广乡村电商过程中，将直播场次、账号粉丝量纳入村干部绩效考核，迫使基层干部挤压本职村务时间运营账号。
+                  半月谈对东部省份基层干部的调研显示，村级事务本就繁杂琐碎，常态化直播需要持续投入精力策划、拍摄、回复互动，很容易分散主责主业的精力，甚至出现“为了完成直播KPI，村民办事找不到人、诉求处理变慢”的情况，反而加剧了矛盾。
+                </p>
+                <p>
+                  济南市长清区万寨街道刁庄村党支部书记刘天顺，为推介本村文旅资源，坚持每天早 6 点至 8 点、晚 6 点至 8 点直播巡村，即便外出培训也不间断。账号起步阶段，大量时间投入短视频与直播，引发村民议论：“支部书记整天没正事，光拍视频开直播。”这份舆论压力曾让他一度萌生放弃的念头。
+                </p>
               </div>
             </div>
 
@@ -1558,11 +1610,11 @@ export default function App() {
                 </p>
               </div>
 
-              {/* CHART 4: 粉丝规模长尾数据（半金字塔） */}
+              {/* CHART 5: 粉丝规模长尾数据（半金字塔） */}
               <div className="pt-4 space-y-4">
                 <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9B7253]/15 pb-2 text-xs font-mono text-[#9B7253]/60 gap-2">
                   <span className="font-bold flex items-center gap-1.5">
-                    <Users className="w-3.5 h-3.5 text-[#55ADA1]" /> FIGURE 04 · 粉丝规模长尾数据（半金字塔）
+                    <Users className="w-3.5 h-3.5 text-[#55ADA1]" /> FIGURE 05 · 粉丝规模长尾数据（半金字塔）
                   </span>
                   <span>数据规模 · 倒金字塔</span>
                 </div>
@@ -1581,11 +1633,11 @@ export default function App() {
                 </div>
               </div>
 
-              {/* CHART 5: 不同性别所属账号粉丝规模对比 */}
+              {/* CHART 6: 不同性别所属账号粉丝规模对比 */}
               <div className="pt-4 space-y-4">
                 <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#9B7253]/15 pb-2 text-xs font-mono text-[#9B7253]/60 gap-2">
                   <span className="font-bold flex items-center gap-1.5">
-                    <TrendingUp className="w-3.5 h-3.5 text-[#55ADA1]" /> FIGURE 05 · 不同性别所属账号粉丝规模对比
+                    <TrendingUp className="w-3.5 h-3.5 text-[#55ADA1]" /> FIGURE 06 · 不同性别所属账号粉丝规模对比
                   </span>
                   <span>性别对比 · 规模走势</span>
                 </div>
