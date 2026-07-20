@@ -1,0 +1,6 @@
+{
+  "name": "Data Journalism Platform",
+  "description": "A elegant, high-contrast data journalism platform with a custom minimalist layout and breathing typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
