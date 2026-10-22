@@ -20,7 +20,8 @@ import {
   Tv,
   ShoppingBag,
   Mail,
-  MailOpen
+  MailOpen,
+  Printer
 } from "lucide-react";
 import { motion, useScroll, useSpring } from "motion/react";
 
@@ -234,42 +235,27 @@ export default function App() {
         style={{ scaleX }}
       />
 
-      {/* Floating Theme Controller */}
-      <div className="fixed right-6 bottom-8 z-40 flex flex-col gap-2 bg-white/80 backdrop-blur border border-[#9B7253]/15 p-1.5 rounded-full shadow-lg">
-        <button
-          onClick={() => setTheme("white")}
-          className={`w-9 h-9 rounded-full flex items-center justify-center transition-all ${
-            theme === "white" 
-              ? "bg-[#9B7253] text-white shadow-sm" 
-              : "text-[#9B7253] hover:bg-[#9B7253]/10"
-          }`}
-          title="经典纯白"
-          id="btn-theme-white"
-        >
-          <span className="text-xs font-mono font-bold">白</span>
-        </button>
-        <button
-          onClick={() => setTheme("parchment")}
-          className={`w-9 h-9 rounded-full flex items-center justify-center transition-all ${
-            theme === "parchment" 
-              ? "bg-[#9B7253] text-white shadow-sm" 
-              : "text-[#9B7253] hover:bg-[#9B7253]/10"
-          }`}
-          title="暖黄雅致"
-          id="btn-theme-parchment"
-        >
-          <span className="text-xs font-mono font-bold">雅</span>
-        </button>
-      </div>
+
 
       {/* Elegant Header */}
       <header className="border-b border-[#9B7253]/10 py-4 px-4 md:px-8 bg-transparent sticky top-0 backdrop-blur-md z-30">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3">
-          <div className="flex items-center gap-3">
-            <BookOpen className="w-5 h-5 text-[#9B7253]" />
-            <span className="font-serif tracking-widest text-[10px] md:text-xs uppercase font-bold text-[#9B7253]">
-              数据新闻 · 乡当有流量队
-            </span>
+          <div className="flex items-center gap-3 justify-between w-full sm:w-auto">
+            <div className="flex items-center gap-3">
+              <BookOpen className="w-5 h-5 text-[#9B7253]" />
+              <span className="font-serif tracking-widest text-[10px] md:text-xs uppercase font-bold text-[#9B7253]">
+                数据新闻 · 乡当有流量队
+              </span>
+            </div>
+            <button
+              onClick={() => window.print()}
+              className="print-hidden flex items-center gap-1.5 px-2.5 py-1 bg-[#9B7253]/10 hover:bg-[#9B7253]/20 text-[#9B7253] rounded-md text-[10px] md:text-xs font-serif font-medium transition-all cursor-pointer"
+              title="打印本页 / 保存为 PDF"
+              id="btn-print-pdf-header"
+            >
+              <Printer className="w-3.5 h-3.5" />
+              <span>保存为 PDF</span>
+            </button>
           </div>
           <div className="flex items-center gap-3 md:gap-5 text-[11px] md:text-xs font-mono text-[#9B7253]/60 overflow-x-auto pb-1 sm:pb-0 scrollbar-none max-w-full">
             <a href="#intro" className={`transition-colors hover:text-[#9B7253] whitespace-nowrap pb-1 ${activeNav === "intro" ? "text-[#9B7253] font-bold border-b-2 border-[#9B7253]" : ""}`}>壹·发端</a>

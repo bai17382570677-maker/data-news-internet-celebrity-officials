@@ -18,3 +18,80 @@ body {
   color: var(--color-brand-primary);
   font-family: var(--font-sans);
 }
+
+@media print {
+  /* Hide interactive/floating elements on paper/PDF */
+  header,
+  .fixed,
+  button,
+  form,
+  input,
+  textarea,
+  .print-hidden,
+  [id^="btn-theme"],
+  .danmaku-form,
+  .floating-nav,
+  .bg-white\/80 {
+    display: none !important;
+  }
+
+  /* Reset layout for print */
+  body {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+    font-size: 11pt !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Deep black text for readability */
+  h1, h2, h3, h4, h5, h6, p, li, blockquote, span, text {
+    color: #000000 !important;
+  }
+
+  /* Ensure nice styling and page breaks */
+  section {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+
+  /* Keep logical cards together, don't split mid-paragraph or mid-figure */
+  blockquote,
+  figure,
+  .rounded-xl,
+  .border,
+  .p-4,
+  .p-6,
+  .p-8,
+  table,
+  tr {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Maintain precise color rendering if permitted by the print settings */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Allow links to not show long URLs but still look clean */
+  a {
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
+
+  /* Standard image behaviors */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Scale iframes nicely */
+  iframe {
+    max-height: 480px !important;
+    border: none !important;
+  }
+}
+
