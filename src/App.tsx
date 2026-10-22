@@ -793,308 +793,47 @@ export default function App() {
             <div className="space-y-12 font-serif text-[16px] md:text-lg leading-relaxed text-[#9B7253]/95">
               <p>当镜头对准乡村，这些书记到底在拍什么？打开一个村支书的短视频账号，内容往往比想象中丰富得多：</p>
               
-              {/* Feature 1 with specialty product line art */}
-              <div className="pt-4">
-                <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
-                  <div className="md:col-span-7 space-y-4">
-                    <h3 className="font-sans font-bold text-base text-[#9B7253] flex items-center gap-2">
-                      <span className="w-2.5 h-2.5 rounded-full bg-[#55ADA1]"></span>
-                      1. 助农带货：让土特产走出大山
-                    </h3>
-                    <p className="text-sm md:text-base text-[#9B7253]/85">
-                      镜头对准田间地头、果园大棚，还有打包车间——土鸡蛋从鸡舍刚拣出来，柑橘挂满枝头等着采摘，红枣在市场摊开筛选。镜头扫过的不只是产品，更多是土地的滋养，是农民掌心的纹路。
-                    </p>
-                    <p className="text-xs text-[#9B7253]/70 italic mt-1.5">
-                      湖北宣恩县万寨乡向家村党支部书记覃浩——“酒窝书记”拥有 <strong className="text-[#B24747] font-bold">35万</strong> 粉丝，累计帮村民销售农产品超 <strong className="text-[#B24747] font-bold">3000万元</strong>，让大山深处的干货一夜之间摆上了全国消费者的屏幕。
-                    </p>
-                  </div>
-                  
-                  <div className="md:col-span-5 animate-fade-in flex justify-center">
-                    <img 
-                      src="/src/assets/images/products_simple_1784523510620.jpg" 
-                      alt="特色农产品：土鸡蛋、深山水蜜桃、猕猴桃与木耳" 
-                      className="w-full max-w-xs h-auto rounded-xl border border-[#9B7253]/10 shadow-sm mix-blend-multiply transition-transform hover:scale-[1.01] duration-300"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
+              {/* Feature 1: 助农带货 */}
+              <div className="pt-4 space-y-3">
+                <h3 className="font-sans font-bold text-base text-[#9B7253] flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#55ADA1]"></span>
+                  1. 助农带货：让土特产走出大山
+                </h3>
+                <p className="text-sm md:text-base text-[#9B7253]/85">
+                  镜头对准田间地头、果园大棚，还有打包车间——土鸡蛋从鸡舍刚拣出来，柑橘挂满枝头等着采摘，红枣在市场摊开筛选。镜头扫过的不只是产品，更多是土地的滋养，是农民掌心的纹路。
+                </p>
+                <p className="text-xs text-[#9B7253]/70 italic mt-1.5">
+                  湖北宣恩县万寨乡向家村党支部书记覃浩——“酒窝书记”拥有 <strong className="text-[#B24747] font-bold">35万</strong> 粉丝，累计帮村民销售农产品超 <strong className="text-[#B24747] font-bold">3000万元</strong>，让大山深处的干货一夜之间摆上了全国消费者的屏幕。
+                </p>
               </div>
 
-                {/* Hidden legacy SVG 3 */}
-                <div className="hidden">
-                  <svg viewBox="0 0 320 120" className="w-full h-auto bg-[#9B7253]/[0.01] border border-[#9B7253]/10 rounded-xl" xmlns="http://www.w3.org/2000/svg">
-                    {/* Egg Basket on the left */}
-                    <g transform="translate(10, 10)">
-                      {/* Detailed Woven Basket */}
-                      <path d="M 15 80 L 12 50 L 78 50 L 75 80 Q 45 92 15 80 Z" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.8" strokeLinejoin="round" />
-                      {/* Basket weave texture lines */}
-                      <path d="M 15 50 Q 45 60 75 50 M 14 60 Q 45 70 76 60 M 13 70 Q 45 80 77 70" fill="none" stroke="#9B7253" strokeWidth="0.8" opacity="0.6" />
-                      <line x1="25" y1="50" x2="20" y2="80" stroke="#9B7253" strokeWidth="0.8" opacity="0.6" />
-                      <line x1="40" y1="50" x2="40" y2="85" stroke="#9B7253" strokeWidth="0.8" opacity="0.6" />
-                      <line x1="55" y1="50" x2="55" y2="85" stroke="#9B7253" strokeWidth="0.8" opacity="0.6" />
-                      <line x1="68" y1="50" x2="71" y2="80" stroke="#9B7253" strokeWidth="0.8" opacity="0.6" />
-                      {/* Handle with wrapped vine detail */}
-                      <path d="M 12 50 Q 45 12 78 50" fill="none" stroke="#9B7253" strokeWidth="1.8" />
-                      <path d="M 15 45 Q 45 15 75 45" fill="none" stroke="#DBAA06" strokeWidth="0.8" strokeDasharray="3,3" />
+              {/* Feature 2: 文旅推广 */}
+              <div className="pt-4 space-y-3">
+                <h3 className="font-sans font-bold text-base text-[#9B7253] flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#55ADA1]"></span>
+                  2. 文旅推广：让乡村被世界瞩目
+                </h3>
+                <p className="text-sm md:text-base text-[#9B7253]/85">
+                  古村落的老街、梯田上的云海、溪流边的露营、非遗手艺的传承。村书记成了家乡的“首席推荐官”，只需一条短视频，就能将那些交通不便、鲜为人知的村庄，以及那些未经修饰的原生态美景，推到了千万人的眼前。
+                </p>
+                <p className="text-xs text-[#9B7253]/70 italic mt-1.5">
+                  已故的原昭苏县副县长贺娇龙，自 <strong className="text-[#B24747] font-bold">2020 年</strong> 开始常态化拍摄骑马短视频。一条<strong className="text-[#B24747] font-bold">不到一分钟</strong>的雪原策马视频，全网播放量突破 <strong className="text-[#B24747] font-bold">6 亿次</strong>，旺季游客暴涨<strong className="text-[#B24747] font-bold">上万人</strong>。
+                </p>
+              </div>
 
-                      {/* Overlapping Eggs inside */}
-                      <ellipse cx="28" cy="46" rx="8" ry="11" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" transform="rotate(-15, 28, 46)" />
-                      <ellipse cx="44" cy="42" rx="9" ry="12" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" />
-                      <ellipse cx="61" cy="45" rx="8" ry="11" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" transform="rotate(20, 61, 45)" />
-                      <ellipse cx="36" cy="48" rx="8" ry="11" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" transform="rotate(45, 36, 48)" />
-                      <ellipse cx="52" cy="47" rx="8" ry="11" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" transform="rotate(-30, 52, 47)" />
-                      
-                      <text x="45" y="102" fontFamily="sans-serif" fontSize="8" fill="#9B7253" textAnchor="middle" fontWeight="bold">土鸡蛋</text>
-                    </g>
-
-                    {/* Peach / Kiwifruit in the middle */}
-                    <g transform="translate(110, 10)">
-                      {/* Deep-mountain Peach with soft cleft & details */}
-                      <path d="M 50 72 C 22 72 18 38 45 33 C 50 33 52 36 52 36 C 52 36 54 33 59 33 C 86 38 82 72 54 72 Z" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.8" />
-                      {/* Cleft line */}
-                      <path d="M 52 36 Q 48 55 52 71" fill="none" stroke="#9B7253" strokeWidth="1" strokeDasharray="2,2" opacity="0.7" />
-                      {/* Double leaves */}
-                      <path d="M 52 36 Q 42 16 26 21 Q 38 31 52 36" fill="#61A358" stroke="#9B7253" strokeWidth="1.2" />
-                      <path d="M 52 33 Q 62 14 74 16 Q 66 27 52 33" fill="#61A358" stroke="#9B7253" strokeWidth="1.2" />
-                      {/* Tiny droplets of morning dew */}
-                      <circle cx="56" cy="48" r="1" fill="none" stroke="#DBAA06" strokeWidth="0.8" />
-                      <circle cx="34" cy="56" r="1.5" fill="none" stroke="#DBAA06" strokeWidth="0.8" />
-                      
-                      <text x="52" y="102" fontFamily="sans-serif" fontSize="8" fill="#9B7253" textAnchor="middle" fontWeight="bold">深山水蜜桃</text>
-                    </g>
-
-                    {/* Kiwi & Wood Ear on the right */}
-                    <g transform="translate(210, 10)">
-                      {/* Kiwifruit Whole */}
-                      <ellipse cx="28" cy="52" rx="14" ry="20" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" transform="rotate(35, 28, 52)" />
-                      {/* Fine fuzzy hair textures on skin */}
-                      <line x1="14" y1="45" x2="11" y2="44" stroke="#9B7253" strokeWidth="0.5" />
-                      <line x1="18" y1="36" x2="16" y2="33" stroke="#9B7253" strokeWidth="0.5" />
-                      <line x1="28" y1="32" x2="28" y2="29" stroke="#9B7253" strokeWidth="0.5" />
-
-                      {/* Kiwi sliced open */}
-                      <circle cx="56" cy="62" r="14" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.8" />
-                      <circle cx="56" cy="62" r="5" fill="none" stroke="#61A358" strokeWidth="1.2" />
-                      {/* radiating seeds & pattern */}
-                      <circle cx="51" cy="59" r="1" fill="#4A3525" />
-                      <circle cx="52" cy="64" r="1" fill="#4A3525" />
-                      <circle cx="58" cy="57" r="1" fill="#4A3525" />
-                      <circle cx="61" cy="61" r="1" fill="#4A3525" />
-                      <circle cx="59" cy="66" r="1" fill="#4A3525" />
-                      <circle cx="54" cy="67" r="1" fill="#4A3525" />
-
-                      {/* Curled wild wood-ear mushrooms */}
-                      <path d="M 72 75 C 68 70 60 70 61 78 C 62 84 72 88 77 82" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.2" />
-                      <path d="M 82 73 C 79 67 72 68 72 75 C 72 80 82 82 85 77" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.2" />
-                      {/* Wood ear internal vein ridges */}
-                      <path d="M 72 75 Q 67 76 66 79" fill="none" stroke="#9B7253" strokeWidth="0.6" opacity="0.6" />
-                      <path d="M 82 73 Q 77 75 76 78" fill="none" stroke="#9B7253" strokeWidth="0.6" opacity="0.6" />
-
-                      <text x="52" y="102" fontFamily="sans-serif" fontSize="8" fill="#9B7253" textAnchor="middle" fontWeight="bold">猕猴桃 & 椴木木耳</text>
-                    </g>
-                  </svg>
-                </div>
-
-                {/* Feature 2: Snow horse riding with outline illustration */}
-                <div className="pt-4">
-                  <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
-                    <div className="md:col-span-7 space-y-4">
-                      <h3 className="font-sans font-bold text-base text-[#9B7253] flex items-center gap-2">
-                        <span className="w-2.5 h-2.5 rounded-full bg-[#55ADA1]"></span>
-                        2. 文旅推广：让乡村被世界瞩目
-                      </h3>
-                      <p className="text-sm md:text-base text-[#9B7253]/85">
-                        古村落的老街、梯田上的云海、溪流边的露营、非遗手艺的传承。村书记成了家乡的“首席推荐官”，只需一条短视频，就能将那些交通不便、鲜为人知的村庄，以及那些未经修饰的原生态美景，推到了千万人的眼前。
-                      </p>
-                      <p className="text-xs text-[#9B7253]/70 italic mt-1.5">
-                        已故的原昭苏县副县长贺娇龙，自 <strong className="text-[#B24747] font-bold">2020 年</strong> 开始常态化拍摄骑马短视频。一条<strong className="text-[#B24747] font-bold">不到一分钟</strong>的雪原策马视频，全网播放量突破 <strong className="text-[#B24747] font-bold">6 亿次</strong>，旺季游客暴涨<strong className="text-[#B24747] font-bold">上万人</strong>。
-                      </p>
-                    </div>
-
-                    <div className="md:col-span-5 animate-fade-in flex justify-center">
-                      <img 
-                        src="/src/assets/images/horse_simple_1784523521417.jpg" 
-                        alt="雪地策马：文旅推广的浩瀚图景" 
-                        className="w-full max-w-xs h-auto rounded-xl border border-[#9B7253]/10 shadow-sm mix-blend-multiply transition-transform hover:scale-[1.01] duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                {/* Hidden legacy SVG 4 */}
-                <div className="hidden">
-                  <svg viewBox="0 0 320 160" className="w-full h-auto bg-[#9B7253]/[0.01] border border-[#9B7253]/10 rounded-xl" xmlns="http://www.w3.org/2000/svg">
-                    {/* Far mountains outline */}
-                    <path d="M 10 130 L 40 100 L 70 120 L 110 85 L 150 115 L 200 75 L 260 115 L 310 105 L 310 130 Z" fill="none" stroke="#9B7253" strokeWidth="0.5" opacity="0.15" />
-                    {/* Background snow horizon */}
-                    <path d="M 10 130 Q 160 140 310 130" fill="none" stroke="#9B7253" strokeWidth="0.8" strokeDasharray="3,3" />
-
-                    {/* Galloping horse & rider (He Jiaolong) */}
-                    <g transform="translate(45, 12)">
-                      {/* Dramatic Billowing Cape (flowing backwards, very detailed folds) */}
-                      <path d="M 105 55 Q 60 20 20 50 Q 5 65 15 75 Q 40 85 75 75 Q 100 68 115 58 Z" fill="#FDFBF7" stroke="#DBAA06" strokeWidth="1.8" strokeLinejoin="round" />
-                      {/* Cape fold lines */}
-                      <path d="M 85 58 Q 50 38 25 56" fill="none" stroke="#DBAA06" strokeWidth="1" />
-                      <path d="M 90 64 Q 65 48 35 68" fill="none" stroke="#DBAA06" strokeWidth="1" />
-
-                      {/* Rider (Detailed posture, coat, and hat) */}
-                      {/* Head & Fur Hat */}
-                      <circle cx="112" cy="42" r="7" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" />
-                      <path d="M 104 39 C 104 33 120 33 120 39 C 120 42 118 44 112 44 Z" fill="#4A3525" stroke="#9B7253" strokeWidth="1" /> {/* hat flap */}
-                      {/* Rider body & coat */}
-                      <path d="M 105 49 C 100 55 98 75 106 78 C 114 78 120 70 118 55" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.8" />
-                      {/* Holding reins */}
-                      <path d="M 116 58 L 132 58" stroke="#9B7253" strokeWidth="1.2" />
-
-                      {/* Galloping Horse (Athletic anatomy & wind-swept mane/tail) */}
-                      {/* Horse Head */}
-                      <path d="M 165 48 C 172 40 182 48 178 58 L 160 68 L 152 56 Z" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.8" strokeLinejoin="round" />
-                      <circle cx="168" cy="52" r="1" fill="#4A3525" /> {/* Horse Eye */}
-                      {/* Horse Ears */}
-                      <path d="M 163 48 L 165 40 L 169 48" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.2" />
-                      <path d="M 160 48 L 159 41 L 164 48" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1" opacity="0.8" />
-                      {/* Wind-blown Mane */}
-                      <path d="M 152 56 Q 140 38 128 48 Q 142 54 152 56" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.2" />
-                      <path d="M 144 64 Q 132 46 122 56 Q 135 60 144 64" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.2" />
-                      
-                      {/* Horse Neck */}
-                      <path d="M 152 56 Q 138 78 126 76" fill="none" stroke="#9B7253" strokeWidth="1.8" />
-                      {/* Horse Body */}
-                      <path d="M 126 76 C 110 76 86 80 80 98 C 80 110 110 114 132 100 C 148 88 156 82 152 68" fill="#FDFBF7" stroke="#9B7253" strokeWidth="2" strokeLinejoin="round" />
-                      
-                      {/* Reins running to head */}
-                      <path d="M 132 58 Q 148 58 162 62" fill="none" stroke="#9B7253" strokeWidth="1" />
-
-                      {/* Galloping legs in mid-air */}
-                      {/* Front Left Leg (extended forward) */}
-                      <path d="M 142 90 L 165 112 L 178 108" fill="none" stroke="#9B7253" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                      {/* Front Right Leg */}
-                      <path d="M 146 88 L 158 102 L 166 98" fill="none" stroke="#9B7253" strokeWidth="1" opacity="0.7" strokeLinecap="round" strokeLinejoin="round" />
-                      {/* Back Left Leg (stretched backward) */}
-                      <path d="M 92 94 L 62 114 L 46 108" fill="none" stroke="#9B7253" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                      {/* Back Right Leg */}
-                      <path d="M 88 94 L 74 116 L 64 112" fill="none" stroke="#9B7253" strokeWidth="1" opacity="0.7" strokeLinecap="round" strokeLinejoin="round" />
-
-                      {/* Flying Tail */}
-                      <path d="M 82 88 Q 50 80 38 92 Q 52 100 82 94" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" strokeLinejoin="round" />
-                      <path d="M 76 90 Q 54 85 44 94" fill="none" stroke="#9B7253" strokeWidth="1" />
-                    </g>
-                    
-                    {/* Dynamic speed lines in snow */}
-                    <line x1="20" y1="125" x2="50" y2="125" stroke="#9B7253" strokeWidth="1" strokeLinecap="round" />
-                    <line x1="210" y1="122" x2="250" y2="122" stroke="#9B7253" strokeWidth="0.8" strokeLinecap="round" />
-                    <line x1="230" y1="132" x2="270" y2="132" stroke="#9B7253" strokeWidth="1.2" strokeLinecap="round" />
-                    
-                    {/* Small flying snow flakes */}
-                    <circle cx="95" cy="115" r="1.5" fill="#DBAA06" />
-                    <circle cx="110" cy="120" r="1" fill="#DBAA06" />
-                    <circle cx="215" cy="105" r="1.5" fill="#61A358" />
-                  </svg>
-                </div>
-
-                {/* Feature 3: From Speaker to Drama skit */}
-                <div className="pt-4">
-                  <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
-                    <div className="md:col-span-7 space-y-4">
-                      <h3 className="font-sans font-bold text-base text-[#9B7253] flex items-center gap-2">
-                        <span className="w-2.5 h-2.5 rounded-full bg-[#55ADA1]"></span>
-                        3. 基层治理：让政策融入寻常百姓家
-                      </h3>
-                      <p className="text-sm md:text-base text-[#9B7253]/85">
-                        国家新政策哪些和乡亲们有关？纸面上的政策如何落地融入百姓的日常生活？过去靠大喇叭通知、靠传单发放的政策信息，如今被书记们用乡音录成短视频，推送到乡亲们的手机上。有的编成情景剧，把邻里纠纷演给大家看；有的编成顺口溜，让政策听得懂、记得住。
-                      </p>
-                      <p className="text-xs text-[#9B7253]/70 italic mt-1.5">
-                        河南息县江庄村村支书彭卫，面对纠纷将案例改编为通俗幽默的视频情景剧，通过“线上演、群众看、大家评”，让矛盾化解从事后转向事前。
-                      </p>
-                    </div>
-
-                    <div className="md:col-span-5 animate-fade-in flex justify-center">
-                      <img 
-                        src="/src/assets/images/speaker_simple_1784523533045.jpg" 
-                        alt="从大喇叭到小屏幕：治理载体的变迁" 
-                        className="w-full max-w-xs h-auto rounded-xl border border-[#9B7253]/10 shadow-sm mix-blend-multiply transition-transform hover:scale-[1.01] duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                {/* Hidden legacy SVG 5 */}
-                <div className="hidden">
-                  <svg viewBox="0 0 320 130" className="w-full h-auto bg-[#9B7253]/[0.01] border border-[#9B7253]/10 rounded-xl" xmlns="http://www.w3.org/2000/svg">
-                    {/* Left: Traditional high-pole loudspeaker */}
-                    <g transform="translate(10, 10)">
-                      {/* Pole with structure/wood lines */}
-                      <line x1="40" y1="15" x2="40" y2="105" stroke="#9B7253" strokeWidth="2.5" strokeLinecap="round" />
-                      <line x1="37" y1="30" x2="37" y2="105" stroke="#9B7253" strokeWidth="0.8" opacity="0.4" />
-                      {/* Ground brick mount */}
-                      <path d="M 32 105 L 48 105 L 52 112 L 28 112 Z" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.2" />
-                      
-                      {/* Big Horn Speaker Left */}
-                      <path d="M 40 30 L 20 20 C 16 28 16 38 20 46 Z" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" strokeLinejoin="round" />
-                      <ellipse cx="20" cy="33" rx="2" ry="12" fill="none" stroke="#9B7253" strokeWidth="1" />
-                      <line x1="40" y1="33" x2="22" y2="33" stroke="#9B7253" strokeWidth="1.2" />
-                      
-                      {/* Big Horn Speaker Right */}
-                      <path d="M 40 30 L 60 20 C 64 28 64 38 60 46 Z" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.5" strokeLinejoin="round" />
-                      <ellipse cx="60" cy="33" rx="2" ry="12" fill="none" stroke="#9B7253" strokeWidth="1" />
-                      <line x1="40" y1="33" x2="58" y2="33" stroke="#9B7253" strokeWidth="1.2" />
-                      
-                      {/* Sound waves emitting dynamically */}
-                      <path d="M 12 18 Q 2 30 12 42" fill="none" stroke="#DBAA06" strokeWidth="1.2" strokeLinecap="round" />
-                      <path d="M 7 12 Q -7 30 7 48" fill="none" stroke="#DBAA06" strokeWidth="0.8" strokeDasharray="2,2" />
-                      <path d="M 68 18 Q 78 30 68 42" fill="none" stroke="#DBAA06" strokeWidth="1.2" strokeLinecap="round" />
-                      <path d="M 73 12 Q 87 30 73 48" fill="none" stroke="#DBAA06" strokeWidth="0.8" strokeDasharray="2,2" />
-                      
-                      <text x="40" y="122" fontFamily="sans-serif" fontSize="8" fill="#9B7253" textAnchor="middle" fontWeight="bold">村头大喇叭</text>
-                    </g>
-
-                    {/* Transition arrow/bridge in the middle */}
-                    <g transform="translate(100, 45)">
-                      {/* Elegant transformation bridge */}
-                      <path d="M 5 20 Q 25 -10 45 10" fill="none" stroke="#DBAA06" strokeWidth="1.8" strokeDasharray="2,2" />
-                      <path d="M 40 5 L 47 10 L 40 16" fill="none" stroke="#DBAA06" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                    </g>
-
-                    {/* Right: Modern smartphone vertical video with drama play */}
-                    <g transform="translate(175, 5)">
-                      {/* Smartphone frame with detailed buttons & lens */}
-                      <rect x="25" y="10" width="60" height="102" rx="7" fill="#FDFBF7" stroke="#9B7253" strokeWidth="2" />
-                      {/* Internal screen */}
-                      <rect x="29" y="15" width="52" height="92" rx="4" fill="none" stroke="#9B7253" strokeWidth="0.8" />
-                      {/* Speaker and Front Camera */}
-                      <line x1="50" y1="13" x2="60" y2="13" stroke="#9B7253" strokeWidth="1.5" strokeLinecap="round" />
-                      <circle cx="45" cy="13" r="0.8" fill="#4A3525" />
-
-                      {/* Play screen content: micro actors (drama skit outline) */}
-                      {/* Actor 1 (Left - wearing a straw hat) */}
-                      <circle cx="43" cy="44" r="5.5" fill="#FDFBF7" stroke="#61A358" strokeWidth="1.2" />
-                      {/* Straw hat */}
-                      <path d="M 33 41 Q 43 32 53 41" fill="none" stroke="#DBAA06" strokeWidth="1.5" strokeLinecap="round" />
-                      <line x1="30" y1="42" x2="56" y2="42" stroke="#DBAA06" strokeWidth="1.8" strokeLinecap="round" />
-                      
-                      <path d="M 43 50 L 43 68 L 36 82" fill="none" stroke="#61A358" strokeWidth="1.5" strokeLinecap="round" />
-                      <path d="M 43 56 Q 32 50 35 46" fill="none" stroke="#61A358" strokeWidth="1.5" strokeLinecap="round" />
-                      
-                      {/* Actor 2 (Right - gesturing neighbor) */}
-                      <circle cx="65" cy="48" r="5.5" fill="#FDFBF7" stroke="#9B7253" strokeWidth="1.2" />
-                      {/* Hair bun */}
-                      <circle cx="68" cy="42" r="2" fill="#4A3525" stroke="#9B7253" strokeWidth="1" />
-                      
-                      <path d="M 65 54 L 65 72 L 72 82" fill="none" stroke="#9B7253" strokeWidth="1.5" strokeLinecap="round" />
-                      <path d="M 65 60 Q 52 56 49 60" fill="none" stroke="#9B7253" strokeWidth="1.5" strokeLinecap="round" />
-
-                      {/* Dialogue / Speech Bubbles and Hearts (Live interaction) */}
-                      <path d="M 41 33 Q 50 24 59 31" fill="none" stroke="#DBAA06" strokeWidth="1" strokeDasharray="1,2" />
-                      {/* Floating hearts */}
-                      <path d="M 35 90 Q 35 86 37 86 Q 39 86 39 90 Q 39 93 35 96 Q 31 93 31 90 Q 31 86 33 86 Q 35 86 35 90 Z" fill="#DBAA06" opacity="0.8" />
-                      <path d="M 75 92 Q 75 89 76.5 89 Q 78 89 78 92 Q 78 94.5 75 97 Q 72 94.5 72 92 Q 72 89 73.5 89 Q 75 89 75 92 Z" fill="#61A358" opacity="0.8" />
-                      
-                      <text x="55" y="122" fontFamily="sans-serif" fontSize="8" fill="#9B7253" textAnchor="middle" fontWeight="bold">政策情景短剧</text>
-                    </g>
-                  </svg>
-                </div>
+              {/* Feature 3: 基层治理 */}
+              <div className="pt-4 space-y-3">
+                <h3 className="font-sans font-bold text-base text-[#9B7253] flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#55ADA1]"></span>
+                  3. 基层治理：让政策融入寻常百姓家
+                </h3>
+                <p className="text-sm md:text-base text-[#9B7253]/85">
+                  国家新政策哪些和乡亲们有关？纸面上的政策如何落地融入百姓的日常生活？过去靠大喇叭通知、靠传单发放的政策信息，如今被书记们用乡音录成短视频，推送到乡亲们的手机上。有的编成情景剧，把邻里纠纷演给大家看；有的编成顺口溜，让政策听得懂、记得住。
+                </p>
+                <p className="text-xs text-[#9B7253]/70 italic mt-1.5">
+                  河南息县江庄村村支书彭卫，面对纠纷将案例改编为通俗幽默的视频情景剧，通过“线上演、群众看、大家评”，让矛盾化解从事后转向事前。
+                </p>
+              </div>
 
                 <p className="pt-4">
                   中国有多少村庄，就有多少“酒香也怕巷子深”的故事：优质的农产品卖不出去，独特的山水无人知晓，传统手艺随老人离世而失传。
